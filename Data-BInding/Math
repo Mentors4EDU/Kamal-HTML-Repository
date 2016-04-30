@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js"></script>
+<head>
+<body>
+  {{ 1+8^2*3*2+8*420}}
+</body>
+</html>
