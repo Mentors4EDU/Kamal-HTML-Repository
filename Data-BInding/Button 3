@@ -1,0 +1,3 @@
+<FORM METHOD="LINK" ACTION="pagename.htm">
+<INPUT TYPE="submit" VALUE="Clickable Button">
+</FORM>
