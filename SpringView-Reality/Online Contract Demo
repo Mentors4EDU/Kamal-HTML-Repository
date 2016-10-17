@@ -1,0 +1,193 @@
+
+	<html>
+	<head>
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Dawning+of+a+New+Day">
+	<style>
+	
+body { font-family: 'Open Sans',arial,sans-serif; margin:20px 0; }
+h1,h2 { font-family: 'Roboto Slab', serif; text-transform:uppercase; } 
+.signedby { font-family: 'Dawning of a New Day', cursive; font-size:45px;  font-weight:strong;}
+.entry-content img {
+	margin: 0 0 1.5em 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+	}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+	}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+.button-primary, .button-secondary {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 38px;
+	height: 38px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top:20px;
+}
+.button-primary { 
+	background: #2ea2cc;
+	border-color: #0074a2;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none; 
+}
+.button-secondary {
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	vertical-align: top;
+}
+@media screen and (max-width:600px){
+	body { font-size:12px; }
+	.signedby { font-size:25px; }
+	.button-primary, .button-secondary {
+		font-size:12px;
+	}
+	div { line-height:normal !important; }
+}
+@media screen and (max-width:384px){
+	body { font-size:12px; }
+	.button-primary, .button-secondary {
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+		width: 100%;
+		font-size: 15px;
+	}
+	form { display: block !important; }
+	div { width:98% !important; text-align:center !important; margin:0 auto; line-height:normal !important; }
+	.signedby { font-size:45px; }
+	p, ul, li, h1,h2,h3,h4,h5,h6 { text-align:left; }
+	h1 { font-size:20px; }
+	h2 { font-size:18px; }
+}	</style>
+	</head>
+							<body>
+		<div style="width:95%; max-width:1280px; margin:0 auto;">
+			<div id="content">
+				<div id="printcontent">
+				<p>EXCLUSIVE LIMITED AGENCY LISTING AGREEMENT</p><p>SELLER(S) Name: ___________________________________________________________<br />613 Springview Drive, Rochester, MI 48307</p><p>Home Address: ______________________________________________________________</p><p>(248) 608-1111</p><p>Phone: Cell _____________________________ Other ______________________________</p><p>THIS EXCLUSIVE LIMITED AGENCY LISTING AGREEMENT ("Agreement") is entered into by and between SELLER(S) &amp; Springview Realty<br />(“BROKER”). The SELLER(S) is selling the Property and requests that BROKER list the Property on the local Multiple Listing Service (“MLS”)<br />where the Property is located. This Agreement is to remain in effect until a sale of the Property is closed or the listing expires or is cancelled by<br />SELLER(S) or by BROKER. Effective date: ____________. Expiration Date: ____________. Asking price $_______________________________<br />Property Description:<br />Residential<br />Condominium<br />Multi-Family Commercial/Industrial<br />Vacant<br />Other ___________________<br />The Property is located in the<br />Village<br />Township<br />City of<br />, County of _____________ Michigan,<br />commonly known as (street address) ________________________________________________________________________, (zip code) ________<br />Legal Description _________________________________________________________________________________________________________<br />SELLER(S) excludes the following items ______________________________________________________________________________________<br />Listing Set-Up: Fee of $99.00 and Monthly Listing Service Fees of $99.00<br />Deferred Payment until sold(closed) or canceled. Amount due is the greater of the following four to be charged to Seller(s) credit card or paid<br />from property sale proceeds:<br />1. $693.00.<br />2. The total based on $99 setup and $99 for each month your property was in service before closing or cancelation.<br />3. The highest asking price x .005.<br />4. The sale (closing) price x .005.<br />In the event the Property is sold, optioned, contracted to be sold to a prospective purchaser(s) procured by a broker who is a member of the MLS, or<br />non-member broker with an active license with the state of Michigan, SELLER(S) will offer a cooperating commission in the amount of: _____% of<br />the sales price, or a flat fee of $___________ to the broker who procures the prospective purchaser(s). SELLER(S) authorizes BROKER to make an<br />offer of compensation equal to the cooperating commission to all brokers who are members of the MLS. The fee shall be paid to BROKER by<br />SELLER(S) in the event of sale, at time of closing the sale. SELLER(S) ARE NOT OBLIGATED TO PAY A COMMISSION FOR<br />PURCHASER(S) PROCURED BY SELLER(S).<br />This Exclusive Limited Agency Listing Agreement is subject to the attached General Terms and Conditions, which are incorporated herein by this<br />reference. The SELLER(S) and BROKER agree to perform their respective duties and obligations in accordance with the General Terms and<br />Conditions. If at any time the General Terms and Conditions are not attached to this Agreement, the applicable General Terms and Conditions will<br />be the General Terms and Conditions then in use by the BROKER.<br />IN WITNESS WHEREOF, the SELLER(S) and BROKER have signed this Agreement as of the date set forth below. All Persons and Entities that<br />have an ownership interest in the Property must sign this Agreement, and the undersigned include all such persons or entities. If any individual is<br />signing this Agreement in a representative capacity, such individual certifies he/she is legally authorized to sign on behalf of the individual or entity.<br />By signing below, SELLER(S) authorizes a recurring charge against SELLER(S)'s credit card for the fees selected above or included in the General<br />Terms and Conditions.<br />Please charge to the following credit card: Credit Card Type:<br />MasterCard<br />Visa<br />American Express<br />Discover Card<br />Number:_______________________________ Expiration Month: ________________ Expiration Year: __________ Security Code: __________<br />Name as it appears on Credit Card ___________________________________________________________________________________________<br />Credit Card Billing Address _________________________________________________________________________________________________<br />The charge(s) will appear on your credit card as “Springview Realty LLC”. If you need to update your credit card information or have other billing<br />related questions, please call our billing support toll free at 18774844774.<br />_________________________________________________<br />BROKER</p><p>____________________________________________________________<br />SELLER</p><p>Date: ____________________________________________</p><p>Date: _______________________________________________________<br />____________________________________________________________<br />SELLER<br />Date: _______________________________________________________</p><p>GENERAL TERMS AND CONDITIONS</p><p>1.</p><p>The Exclusive Limited Agency Listing Agreement ("Agreement") is subject to these General Terms and Conditions. SELLER(S) and BROKER<br />agree to perform their respective duties and obligations in accordance with these General Terms and Conditions.<br />2. Unless specifically excluded by the SELLER(S), the Property includes all improvements and appurtenances, if any, now in or on the Property<br />including all buildings, fixtures, built in appliances, all window treatments including hardware, attached floor covering, attached fireplace doors,<br />screens, gas logs, garage door opener and controls, window screens, storm windows and doors, landscaping, fences, mailboxes, all ceiling fans, alarm<br />system, radio and television antennas, rotors and controls, water softener (unless rental), water pumps, pressure tanks and fuel in tank, incinerator, if<br />any, and gas, oil and mineral rights owned by SELLER(S).<br />3. SELLER(S) acknowledges that under the Agreement, BROKER is only responsible for listing the SELLER(S)’s Property on the local MLS.<br />BROKER has a limited agency relationship with the SELLER(S) and does not represent the SELLER(S) outside of publishing SELLER(S)'s<br />Property on the local MLS. SELLER(S) is aware and specifically understands BROKER will not negotiate on behalf of any party in any transaction.<br />SELLER(S) agrees to receive all written offers directly from a prospective purchaser(s) and/or a purchaser(s)'s broker. SELLER(S) has chosen to<br />waive broker representation and be fully responsible for all appointment scheduling, Property showings, negotiations, the accuracy of all data<br />provided by SELLER(S) to BROKER, contract preparation, transaction coordination, and all other responsibilities (legal and nonlegal) pertaining to<br />the sale of the Property. BROKER strongly recommends SELLER(S) seek the guidance and advice of an attorney when selling real estate.<br />4. The listing of the Property on the MLS is subject to the approval, rules and regulations of the MLS. The listing of the Property becomes subject<br />to the rules and regulations of the MLS upon SELLER(S) signing the Agreement.<br />5. STATUTORY AND FEDERAL DISCLOSURES ARE SELLER(S)'S RESPONSIBILITY. BROKER'S OBLIGATIONS UNDER THE<br />AGREEMENT ARE CONTINGENT ON BROKER RECEIVING THE DISCLOSURE LETTER ACKNOWLEDGING THIS RESPONSIBILITY<br />AND ACCEPTED OR DECLINED HOME WARRANTY APPLICATION. SELLER(S) UNDERSTANDS AND AGREES THE SERVICES TO<br />BE PROVIDED BY BROKER DO NOT INCLUDE THE PROCESSING OR TRANSFER OF DISCLOSURES TO PURCHASER(S) OR TO ANY<br />BUYER'S REALTOR OR BROKER. THE SERVICES TO BE PROVIDED BY BROKER DO NOT INCLUDE UPLOADING THE<br />DISCLOSURES TO THE MLS. THE SELLER(S) TAKES FULL RESPONSIBILITY FOR RESPONDING TO ANY REQUEST FOR A<br />DISCLOSURE, AND FOR THE ACCURATE AND PROPER LEGAL COMPLETION OF ALL REQUESTED OR REQUIRED DISCLOSURE<br />FORMS, AND FOR PROVIDING SUCH FORMS TO A PROSPECTIVE PURCHASER(S).<br />6. SELLER(S) directs and grants BROKER authority to choose the appropriate MLS(s) and list the Property on the MLS(s) where the Property is<br />located.<br />7. Compensation: The SELLER(S) agrees to pay BROKER the fees for the services selected:<br />$99 Listing Set-Up Fee - This fee includes the preparation of the documents necessary to publish SELLER(S)'s Property on the<br />local MLS, allows SELLER(S) to submit the maximum pictures per Realtor.com, and does not include the first month of Listing<br />Services. The Listing Set-Up Fee is fully earned and is non-refundable once the payment is received. BROKER is not<br />responsible for SELLER(S)'s completion of all required documents or the completion of all data required to complete the<br />MLS(s) listing. $99 Monthly Listing Service Fee - The SELLER(S) can continue the listing and continue to receive Monthly Listing<br />Services for a Monthly Listing Service Fee of $99 per month. This fee begins the day of signing the contract and is due every 30 days<br />thereafter, unless the property is sold(closed) or this agreement cancelled by SELLER(S) or BROKER. There is no prorating of the<br />Monthly Listing Service Fee. It is the SELLER(S)'s responsibility to complete all status change and authorization forms provided in their<br />listing documents. The Listing Services include: unlimited text changes (not picture changes, picture changes are $25 each), up to<br />the maximum pictures Realtor.com will allow, unlimited open house through the local MLS and Realtor.com, unlimited broker<br />tours through the local MLS, unlimited time to sell and the appointment center (enables agents to schedule showings 24/7).<br />The Monthly Listing Service Fee is fully earned and is nonrefundable once the payment is received. If BROKER fails to receive<br />payment from SELLER(S), SELLER(S) give BROKER authority to conditionally withdraw property from active status until<br />payment is received or unconditionally withdraw property and cancel listing agreement.<br />Deferred Payment – Includes the setup and monthly services. Seller(s) may amend contract at any time to the Deferred Payment with a<br />credit towards amount due for the setup and monthly service fees paid. Seller(s) to keep an active credit card on file authorizing amount<br />due.</p><p>8. SELLER(S) may cancel the Agreement at any time prior to acceptance of a purchase agreement sales contract(pending, under<br />contract). SELLER(S) may not terminate the Agreement while the Property is under a sales contract. If under a sales contract, Listing<br />Services will continue until date of closing. If the Agreement expires while the Property is under contract, SELLER(S) must comply<br />with the terms of the Agreement. There are no refunds or prorations.<br />9. If SELLER(S) fails to comply with and perform the SELLER(S)'s requirements and responsibilities listed below, BROKER may cancel the<br />Agreement and withdraw the Property listing from the MLS and Realtor.com. No refunds or prorations will be given. SELLER(S) 's responsibilities<br />include:<br /><br />Complete all documents requested by BROKER.<br /><br />Accurately complete all required fields on MLS Data Form. (Time is of the Essence - all forms need to be completed and dated the same<br />business day’s date the forms are returned to BROKER.)<br /><br />Provide MLS required documentation for changes on a MLS status change form. (The date must be the same date as the status change, and the<br />same business day’s date the forms are returned to BROKER.)</p><p>2</p><p><br />When submitting the status change form for Property that has sold, SELLER(S) agrees to provide the closing statement, the financing type<br />involved with the sale, the amount of any concessions back to the purchaser(s), what the concessions were for, and the purchaser(s)’s agent/broker’s<br />name and address and any other information the local MLS may require to close out the listing.<br /><br />SELLER(S) agrees to indemnify BROKER and be responsible for any and all fines charged by the MLS to BROKER that are associated with<br />the listing of the Property on the MLS, if such fines are due to any inaccurate or improper data, failure to provide required data, failure to update<br />BROKER of any change in status, failure to provide BROKER with documentation, failure to correctly date paperwork, or any failure to comply<br />with the rules or requirements of the MLS.<br /><br />SELLER(S) AGREE AND UNDERSTAND ALL MLS VIOLATIONS WILL RESULT IN A $300 FEE, PER MONTH, PER VIOLATION,<br />PER MLS, PAID TO BROKER FROM SELLER(S).<br /><br />By signing the Agreement SELLER(S) authorizes BROKER to hold SELLER(S)'s credit card information and to charge SELLER(S)'s<br />credit/debit card provided to BROKER for the Listing Set-Up Fee, the Monthly Listing Service Fee, Processing Charges, Change Fees and any MLS<br />fees/fines associated with SELLER(S)’s MLS listing. SELLER(S) agree to pay for all broker’s attorney fees and collection efforts until fees are paid<br />and violations have be satisfied per MLS and Broker. All fees and fines are nonrefundable.<br /><br />SELLER(S) is responsible for all data submitted on the MLS listing and shall hold BROKER harmless from any and all claims against<br />BROKER, and SELLER(S) accepts any financial responsibility for such a claim.<br />10. SELLER(S) agrees to immediately update BROKER on any activity on the Property or listing, including the Property's status as active, under<br />contract, contingency of inspection/financing, pending, sold, with all data relating to a sale, including, without limitation, the sale price and terms of<br />sale, purchaser(s)’s agent and broker involved, concessions to purchaser(s), along with copies of all related documents, including the purchase<br />agreement, closing statements, and purchaser(s)’s agents contact information.<br />11. Status changes will not be considered effective until BROKER is notified in writing within 24 hours and changes are applied to the MLS.<br />BROKER will have 48 hours (not including weekends, holidays, and postal holidays) after the authorized change form is received, to apply the<br />changes. SELLER(S) grants BROKER and MLS and MLS participants and subscribers the right to reproduce and display the photos submitted by<br />the SELLER(S). MLS shall own the copyright to all photos submitted.<br />12. Agency: SELLER(S) acknowledges BROKER has explained to the SELLER(S) the BROKER's policy on agency and disclosed to SELLER(S)<br />the different types of real estate agency relationships. Receipt of Agency Disclosure is acknowledged by SELLER(S).<br />13. It is agreed by BROKER and SELLER(S) that discrimination because of race, religion, color, national origin, sex, marital status, age, height,<br />weight, physical or mental disability, or familial status, with the sale of the subject Property is PROHIBITED.<br />14. Binding Contract: The Agreement shall be binding upon execution by SELLER(S) or SELLER(S)'s agents and BROKER.<br />15. Acknowledgement: The SELLER(S) has read, acknowledges, and accepts the terms of the Agreement, including the General Terms and<br />Conditions, and has received a complete copy of the Agreement.<br />16. Limited Service Agreement: Pursuant to Michigan law, certain services provided by a real estate licensee may be waived. A r eal estate licensee<br />is required to perform certain services for the client unless these services are waived by the client. SELLER(S) agrees that BROKER, a real estate<br />licensee, will not be required to perform any of the following services which SELLER(S) specifically waives:<br />A. Acceptance of delivery and presentation of offers and counteroffers to buy, sell, or lease the Property or any property SELLER(S) seeks to<br />purchase or lease.<br />B. Assistance in developing, communicating, negotiating, and presenting offers, counteroffers and related documents or notices until a purchase or<br />lease agreement is executed by all parties and all contingencies are satisfied or waived.<br />C. After execution of a purchase agreement by all parties, assistance as necessary to complete the transaction under the terms specified in the<br />purchase agreement.<br />17. By signing the Agreement, SELLER(S) acknowledges the duties owed to SELLER(S) pursuant to Michigan law have been explained to<br />SELLER(S) and SELLER(S) knowingly agrees the BROKER will not provide the services that are listed above. SELLER(S) also understands that in<br />any proposed real estate transaction, no other real estate licensee is required to provide the waived services unless SELLER(S) subsequently hires<br />them to do so. SELLER(S) also acknowledges that SELLER(S) has been advised to consult with an attorney or other knowledgeable professional in<br />order to fully protect SELLER(S)'s interests.<br />18. If payment is ever denied or rejected, the BROKER may cancel the services and remove the Property from the MLS(s) and Realtor.com, and/or<br />terminate the Agreement.<br />19. Except as otherwise stated, capitalized terms in these General Terms and Conditions shall have the meanings given to such terms in the<br />Agreement, if any. In the event of any conflict between the provisions of the Agreement and these General Terms and Conditions, these General<br />Terms and Conditions shall control.</p><p>3</p>							
+																<strong>Please sign using a stylus, your mouse, or your finger below to authorize this contract. By electronically signing this document, you agree to the terms established above.<br>After the document is signed, you can proceed to print it or save it as a PDF.</strong>
+						<div id="signature" style="border:1px solid #f4f4f4; margin:10px 0; cursor: url(http://onlinecontract.futuredesigngroup.com/wp-content/plugins/onlinecontract/includes/img/contract-icon-large.png), auto;"></div>
+						<div style=" float:right; width:30%; text-align:right;">10-17-2016</div>
+						<div style=" float:left; width:70%;"><button type="button" onclick="$('#signature').jSignature('clear')" class="button-secondary">Clear</button> <button type="button" onclick="importImg($('#signature'))" class="button-primary">Save</button><img src="http://onlinecontract.futuredesigngroup.com/wp-content/plugins/onlinecontract/includes/img/ajax-loader.gif" class="loader" style="margin-top: 32px; margin-left: 20px; display:none;"></div>
+						<div class="clearfix"></div>
+						<br>
+						<br>
+												</div>
+		</div>
+		</body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://onlinecontract.futuredesigngroup.com/wp-content/plugins/onlinecontract/js/flashcanvas.js"></script>
+		<![endif]-->
+		<script src="http://onlinecontract.futuredesigngroup.com/wp-content/plugins/onlinecontract/js/jSignature.min.js"></script>
+		<script>
+			$(document).ready(function() { $("#signature").jSignature(); if( window.location.hash ) { $(document.body).animate({'scrollTop': $( window.location.hash ).offset().top}, 100);}
+			});
+			function importImg(sig)
+			{
+				$(".button-primary").hide();
+				$(".loader").show();
+				var dNow = new Date();
+				var hours = dNow.getHours();
+				var ampm = '';
+				if (hours > 12) {
+					hours -= 12;
+					ampm = 'PM';
+				} else if (hours === 0) {
+					hours = 12;
+					ampm = 'AM';
+				}
+				function pad(n) {
+					 return (n < 10) ? '0' + n : n;
+				}
+				var localdate= (dNow.getMonth()+1) + '-' + dNow.getDate() + '-' + dNow.getFullYear() + ' ' + hours + ':' + pad(dNow.getMinutes()) + ampm;
+				sig.children("img.imported").remove();
+				$.ajax({  
+					type: 'POST',
+					url: 'http://onlinecontract.futuredesigngroup.com/wp-content/plugins/onlinecontract/signaturesave.php',
+					data: 'postid=2934&signed=1&signdate=' + localdate + '&ipaddress=141-210-112-239&url=http://onlinecontract.futuredesigngroup.com/?post_type=contract&p=2934&adminemail=noreply@futuredesigngroup.com&image=' + sig.jSignature('getData'),
+					success: function(data){
+						 							window.location.href += "#processed";
+							location.reload();
+						 					}
+				});
+			}
+			$("#printBtn").click(function(){
+				printcontent($("#printcontent").html());
+			});
+			function printcontent(content)
+			{
+				var mywindow = window.open('', '', '');
+				mywindow.document.write('<html><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Dawning+of+a+New+Day"><style>body { font-family: \'Open Sans\',arial,sans-serif; margin:20px 0; font-size:12px; } h1,h2 { font-family: \'Roboto Slab\', serif; text-transform:uppercase; } h1 { font-size: 22px; } h2 { font-size:18px; } .signedby { font-family: \'Dawning of a New Day\', cursive; font-size:45px;  font-weight:strong;}</style><body>');
+				mywindow.document.write(content);
+				mywindow.document.write('</body></html>');
+				mywindow.document.close();
+				mywindow.print();
+				return true;
+			}
+		</script>
+		</html>
+			
