@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>DocuSign</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+                <script type="text/javascript">
+            (function (global) { global.DS_PAGE_LOADED_TIME = +(new Date()); })(this);
+        </script>
+        <link href="https://www.docusign.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <!--[if gte IE 9]><!-->
+        <link id="styWebFonts" rel="stylesheet" href="SigningApp/1.14.0/css/font-faces.css?cs=e9b1b21" type="text/css" />
+        
+        <!-- <![endif]-->
+        <!--[if lte IE 8]>
+        <link id="ie8" rel="stylesheet" href="SigningApp/1.14.0/css/ie8.css?cs=e9b1b21" type="text/css" />
+        <![endif]-->
+        <style>
+            #error-page {
+                display: none;
+            }
+        </style>
+        <link rel="stylesheet" href="SigningApp/1.14.0/css/error-page.css?cs=e9b1b21" type="text/css" />
+        <script src="Bongo/js/DSSigningSameDomainWeb.js?cs=e9b1b21"></script>
+        
+        <script type="text/javascript">
+            /* minified Mixpanel load script from Steve W Mixpanel, 3/25/14.
+            replaced Mixpanel script URL with DocuSign CDN URL. */
+            (function (e, t) { if (!t["__SV"]) { var n, r, i, s, o, u = "mixpanel"; window[u] = t; n = e.createElement("script"); n.type = "text/javascript"; n.async = true; n.src = (e.location.protocol === "https:" ? "https:" : "http:") + "//docucdn-a.akamaihd.net/v/static/mixpanel-2-2-1b.js"; r = e.getElementsByTagName("script")[0]; r.parentNode.insertBefore(n, r); t["_i"] = []; t["init"] = function (e, n, r) { function a(e, t) { var n = t.split("."); if (n.length == 2) { e = e[n[0]]; t = n[1] } e[t] = function () { e.push([t].concat(Array.prototype.slice.call(arguments, 0))) } } var i = t; if (typeof r !== "undefined") { i = t[r] = [] } else { r = u } i["people"] = i["people"] || []; i["toString"] = function (e) { var t = u; if (r !== u) { t += "." + r } if (!e) { t += " (stub)" } return t }; i["people"]["toString"] = function () { return i.toString(1) + ".people (stub)" }; s = "disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" "); for (o = 0; o < s.length; o++) { a(i, s[o]) } t["_i"].push([e, n, r]) }; t["__SV"] = 1.2 } })(document, window["mixpanel"] || []);
+            try {
+                mixpanel.init('1f9d9bf1dc16b8ee0da73caf3ad3deb1', { 'disable_cookie': true });
+            } catch(e) {}
+        </script>
+        
+    </head>
+    <body>
+    <div id="error-page">
+        <div class="top-area" id="newHeader">
+            <div class="logo-wrapper"><a href="http://www.docusign.com" class="logo-link"><img src="/Member/Images/docusign.png" class="logo" alt="Docusign"></a></div>
+            <div class="help-wrapper"><a href="http://www.docusign.com/support" class="help-link" target="_new">Help</a></div>
+        </div>
+
+        <div id="browser-unsupported" class="container">
+            <div class="error-header">
+                <h1>Your browser isn&#39;t supported</h1>
+                <h3>The version of Internet Explorer you are using is outdated or running in compatibility mode which is not supported by DocuSign.</h3>
+                <h3>Download one of the following browsers to continue:</h3>
+            </div>
+
+            <div class="error-holder">
+                <table>
+                    <tr>
+                        <td class="icon-cell">
+                            <img src="Images/browser-icons/ie.png" alt="internet-explorer-icon" />
+                        </td>
+                        <td>
+                             <h4>Internet Explorer <small>8.0 or above</small></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <img src="Images/browser-icons/firefox.png" alt="firefox-icon" />
+                        </td>
+                        <td>
+                             <h4>Firefox <small>Current Version</small></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <img src="Images/browser-icons/chrome.png" alt="google-chrome-icon" />
+                        </td>
+                        <td>
+                             <h4>Google Chrome <small>Current Version</small></h4>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="fine-print-footer">
+                    <strong>Current Browser User Agent String:  </strong><span id="user-agent-string"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <script type="text/javascript">
+        function pageInFrame() {
+            try {
+                return window.self !== window.top;
+                // This will throw an error in some browsers if the domains are different, which means it's in a frame
+            } catch (e) {
+                return true;
+            }
+        }
+
+        function loadSigningJs(experimentInfo) {
+            window.cdnURL = 'SigningApp/1.14.0/';
+
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = window.cdnURL + 'signing' + experimentInfo.jsSuffix + '.js?cs=e9b1b21';
+            document.body.appendChild(script);
+        }
+
+        var loadmain = true;
+        try {
+            var allowframe = true;
+            if (!allowframe) {
+                if (pageInFrame()) {
+                    // Redirect
+                    var bdy=document.getElementsByTagName('body');
+                    if (bdy) {
+                        bdy[0].style.display = 'none';
+                    }
+                    window.open(window.self.location);
+                    loadmain = false;
+                }
+            }
+        } catch (e) {
+        }
+
+        if (loadmain) {
+            if (!window.navigator || (/MSIE ([6-7]{1,}[\.0-9]{0,})/).test(window.navigator.userAgent) || !document.querySelectorAll) {
+                document.getElementById('user-agent-string').innerHTML = window.navigator ? window.navigator.userAgent : 'Unavailable';
+                document.documentElement.className = 'error-page browser-unsupported';
+            } else {
+                var defaultExperimentInfo = { jsSuffix: '' };
+                var experimentInfo = defaultExperimentInfo;
+                if (window.DS && window.DS.abTestRunner) {
+                    var configToRun = {
+                        signingVersion: 'V01',
+                        experiments: []
+                    };
+
+
+                    try {
+                        experimentInfo = window.DS.abTestRunner.run(configToRun);
+                    } catch (ex) {
+                        // Do nothing
+                    }
+                }
+
+                loadSigningJs(experimentInfo);
+            }
+        }
+
+        if (false) {
+            window.cookieBanner = {
+                'CookieDisclaimerText': '',
+                'LearnMoreText': '',
+                'OKButtonText': '',
+                'OpenLinkInNewWindowText' : ''
+            };
+        }
+    </script>
+    </body>
+</html>
