@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>IFrame PowerForm Sample</title>
+    <style type="text/css">
+      body { background-color: #fefdfc;}
+      p.description { width: 500px; border: 1px solid #cfc; padding: 20px; }
+      .form_cont { border: 1px solid #cfc; padding: 20px; width: 1024px; background-color: #cd9;}
+      .top_cont { width: 1124px; margin-left: auto; margin-right: auto; }
+      #dswpf { width: 1024px; height: 700px;}
+    </style>
+  </head>
+  <body>
+    <div class="top_cont">
+      <p class="description">This page embeds a DocuSign Web PowerForm into an HTML iframe. This allows a website's branding and design to be retained while a user fills out and signs a form.</p>
+      <div class="form_cont">
+        <iframe id="dswpf" src="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=2d945331-1e70-44e8-87e7-fd6208931ccc>
+      </div>
+    </div>
+  </body>
+</html>
