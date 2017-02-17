@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        CakePHP: the rapid development php framework:
+        Users    </title>
+    <link href="/Blog/blog/favicon.ico" type="image/x-icon" rel="icon"/><link href="/Blog/blog/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link rel="stylesheet" href="/Blog/blog/css/base.css"/>    <link rel="stylesheet" href="/Blog/blog/css/cake.css"/>
+            </head>
+<body>
+    <nav class="top-bar expanded" data-topbar role="navigation">
+        <ul class="title-area large-3 medium-4 columns">
+            <li class="name">
+                <h1><a href="">Users</a></h1>
+            </li>
+        </ul>
+        <div class="top-bar-section">
+            <ul class="right">
+                <li><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></li>
+                <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="container clearfix">
+        <!-- File: src/Template/Users/login.ctp -->
+
+<div class="users form">
+        <form method="post" accept-charset="utf-8" action="/Blog/blog/users/login"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>    <fieldset>
+        <legend>Please enter your username and password</legend>
+        <div class="input text"><label for="username">Username</label><input type="text" name="username" id="username"/></div>        <div class="input password"><label for="password">Password</label><input type="password" name="password" id="password"/></div>    </fieldset>
+    <button type="submit">Login</button>    </form></div>    </div>
+    <footer>
+    </footer>
+<script id="__debug_kit" data-id="37de56cf-112d-4528-8b90-dea204809d88" data-url="http://localhost/Blog/blog/" src="/Blog/blog/debug_kit/js/toolbar.js"></script></body>
+</html>
