@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        CakePHP: the rapid development php framework:
+        Users    </title>
+    <link href="/Blog/blog/favicon.ico" type="image/x-icon" rel="icon"/><link href="/Blog/blog/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link rel="stylesheet" href="/Blog/blog/css/base.css"/>    <link rel="stylesheet" href="/Blog/blog/css/cake.css"/>
+            </head>
+<body>
+    <nav class="top-bar expanded" data-topbar role="navigation">
+        <ul class="title-area large-3 medium-4 columns">
+            <li class="name">
+                <h1><a href="">Users</a></h1>
+            </li>
+        </ul>
+        <div class="top-bar-section">
+            <ul class="right">
+                <li><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></li>
+                <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="container clearfix">
+        <!-- src/Template/Users/add.ctp -->
+
+<div class="users form">
+<form method="post" accept-charset="utf-8" action="/Blog/blog/users/add"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div><fieldset>
+    <legend>Add User</legend>
+    <div class="input text required"><label for="username">Username</label><input type="text" name="username" required="required" maxlength="50" id="username"/></div>    <div class="input password required"><label for="password">Password</label><input type="password" name="password" required="required" id="password"/></div>    <div class="input select required"><label for="role">Role</label><select name="role" required="required" id="role"><option value="admin">Admin</option><option value="author">Author</option></select></div></fieldset>
+<button type="submit">Submit</button></form></div>
+    </div>
+    <footer>
+    </footer>
+<script id="__debug_kit" data-id="7020fafd-52d6-4f4f-be8d-6682ea950a2a" data-url="http://localhost/Blog/blog/" src="/Blog/blog/debug_kit/js/toolbar.js"></script></body>
+</html>
